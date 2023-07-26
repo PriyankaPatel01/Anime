@@ -1,7 +1,7 @@
 import Login from './components/Login';
 import Card from './components/Card';
 import Home from './components/Home';
-import Car from './components/Car';
+
 
 import './components/home.css';
 import './components/login.css';
@@ -14,8 +14,6 @@ const App = () => {
         <Route path='/' element={<Login/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/card' element={<Card/>} />
-        <Route path='/car' element={<Car/>} />
-
       </Routes>
     </Router>
   )

@@ -1,3 +1,6 @@
+// Login user name: anime
+// Password: 1234
+
 
 import icon from './images/icon.jpg';
 import { useState } from 'react';
@@ -43,7 +46,7 @@ const Login = () => {
       setgo(false);
 
     }
-    else if(name!=='priyanka')
+    else if(name!=='anime')
     {
       alert("wrong name")
       setgo(false);
