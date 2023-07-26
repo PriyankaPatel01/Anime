@@ -1,0 +1,72 @@
+.home
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(157, 157, 245);
+    color: rgb(224, 238, 30);
+    
+}
+
+
+.cover
+{
+    margin: 10px;
+    background-color:  rgb(207, 207, 252);
+    border: 2px solid rgb(127, 127, 196);
+    padding: 15px;
+    padding-left: 35px;
+    width: 93%;
+    height: 85%;
+}
+
+.container
+{
+    width: 180px;
+    height: 250px;
+    float: left ;
+    margin: 10px;
+}
+
+
+.container:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front, .back
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back
+{
+    background-color: palevioletred;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.back h2
+{
+    color: yellow;
+}
+

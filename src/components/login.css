@@ -1,0 +1,73 @@
+body
+{
+    padding: 0%;
+    margin: 0;
+    background-image: linear-gradient(to bottom left, blue, red) !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login
+{
+    margin-left: 40%;
+    margin-top: 10%;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 20pt;
+    color: wheat;
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255, .3);
+}
+
+.login .icons
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btn
+{
+    background-image: linear-gradient(to bottom left , pink, yellow);
+    border: 2px solid white;
+    padding: 10px;
+
+}
+
+@media (max-width: 767px)
+{ .sm
+{
+    display: none;
+}
+}
+
+@media (min-width: 767px) 
+{
+    .ld
+    {
+        display: none;
+    }
+}
+.mobile-text
+{
+    margin: 10%;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    line-height: 20pt;
+    font-size: larger;
+    color: wheat;
+    background-color: rgb(255, 255, 255, .3);
+}
+
+.icon-sm
+{
+    border-radius: 50%;
+    height: 40%;
+    width: 40%;
+}
